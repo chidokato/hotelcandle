@@ -1,0 +1,243 @@
+.header {
+    height: 100px;
+}
+
+.row_container {
+    padding: 0;
+}
+
+.bgr_overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #00000054;
+}
+
+.overlay_container {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_title h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.breadumb_list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.breadumb_list .breadumb_list-item a {
+    color: rgb(206, 203, 203);
+    margin-right: 10px;
+}
+
+.breadumb_list .breadumb_list-item a:hover {
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.main_space {
+    height: 120px;
+}
+
+.row_item-img {
+    width: inherit;
+}
+
+.row_item-img img {
+    width: 100%;
+}
+
+.booking_title a {
+    font-size: 21px;
+    font-weight: 400;
+    color: #111;
+}
+
+.booking_content .user {
+    font-size: 13px;
+    display: flex;
+    margin: 0 0 10px 0;
+}
+
+.booking_content .user .user_item:nth-child(1) {
+    margin-right: 10px;
+}
+
+.booking_text {
+    font-size: 13px;
+}
+
+.booking_icon {
+    margin: 20px 0 10px;
+}
+
+.booking_icon a {
+    margin: 0 10px 0 0;
+    font-size: 13px;
+    color: #111;
+}
+
+.main_booking-price {
+    text-align: center;
+    padding: 15px;
+}
+
+.booking_price {
+    font-size: 35px;
+    color: #111;
+}
+
+.booking_select button {
+    font-size: 10px;
+    padding: 8px 19px;
+    margin: 20px 0 0 0;
+    background-color: #c7b39a;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.booking_select button:focus-visible,
+.booking_select button:focus {
+    outline: none;
+}
+
+.booking_price-label {
+    font-size: 13px;
+}
+
+.row_item {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 10%), 0px 4px 6px -2px rgb(0 0 0 / 5%);
+    font-size: 13px;
+    margin-bottom: 34px;
+    overflow: hidden;
+}
+
+.reservation_title {
+    border-bottom: 1px solid;
+    border-color: inherit;
+    color: #000;
+    font-size: 16px;
+    margin: 0 -20px 20px;
+    padding: 17px 20px;
+}
+
+.reservation,
+.reservation_cart,
+.reservation_hotel {
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px -2px #eaeaea;
+    padding: 0 20px 30px 20px;
+}
+
+.reservation_title-name {
+    font-weight: 400;
+    margin: 0;
+}
+
+/*.res_checkin-input,
+.res_checkout-input,
+.Adult select,
+.children select {
+    width: 100%;
+    border: none;
+    outline: none;
+}*/
+
+.res_checkin .form-control,
+.res_checkout .form-control {
+    display: flex;
+    align-items: center;
+}
+
+.reservation_form label {
+    margin: 10px 0;
+    padding-left: 5px;
+}
+
+.button_sb {
+    margin: 20px 0 0 0;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 14px 20px;
+    background: #c7b39a;
+    border: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.button_sb:focus-visible,
+.button_sb:focus {
+    outline: none;
+}
+
+.reservation_cart,
+.reservation_hotel {
+    margin: 20px 0 20px 0;
+}
+
+.cart_content {
+    text-align: center;
+}
+
+.hotel_content ul {
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hotel_content ul li {
+    margin: 0 0 10px 0;
+}
+
+.hotel_content ul li i {
+    margin-right: 10px;
+}
+
+.paging_row {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.paging_row a button {
+    border: none;
+    background-color: transparent;
+}
+
+.paging_row a button:focus-visible,
+.paging_row a button:focus {
+    outline: none;
+}
+
+.paging_row a {
+    position: relative;
+    display: inline-block;
+    padding: 4px 12px;
+    border: 1px solid #eaeaea;
+    font-size: 12px;
+    color: #666;
+    margin: 0 3px;
+}
+.res_checkin .form-group{
+   position:relative;	
+}
+.res_checkin .form-group i{
+   position:absolute;	
+   bottom:10px;
+   right:10px;
+}

@@ -1,0 +1,74 @@
+.header_banner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.blog_content {
+    padding: 25px 30px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px -2px #eaeaea;
+    margin-bottom: 30px;
+}
+
+.blog_search {
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px -2px #eaeaea;
+    padding: 8px 15px;
+    margin: 0 0 20px 0;
+}
+
+.blog_search i {
+    margin: 0 10px 0 0;
+}
+
+.blog_search input {
+    border: none;
+    outline: none;
+}
+
+.block_content .blog-item {
+    display: flex;
+    padding: 9px 0px;
+}
+
+.blog-item-img img {
+    max-width: 100%;
+    width: 70px;
+    height: 70px;
+    margin: 0 10px 0 0;
+}
+
+.go_travel {
+    margin: 0 0 20px 0;
+}
+
+.go_travel a img {
+	width: 100%;
+	height: 282px;
+    max-width: 100%;
+}
+
+.blog_list-catagories {
+    padding: 0;
+    list-style-type: none;
+}
+
+.blog_list-catagories li a {
+    font-size: 16px !important;
+    color: #333;
+    font-size: 14px;
+    display: block;
+    margin: 0 0 15px 0;
+}
+
+@media (max-width: 991px) {
+	.go_travel a img {
+    width: 100%;
+    height: 380px;
+    max-width: 100%;
+  
+}
+}
